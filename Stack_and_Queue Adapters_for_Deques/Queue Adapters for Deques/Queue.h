@@ -11,8 +11,8 @@ public:
 	Queue();			//constructor
 	~Queue();			//destructor
 	void enqueue(const E& e);
-	void dequeue(); //throw(QueueEmpty);  
-	const E& front() const; //throw(QueueEmpty); //we don't have this function or this name of this function on Queues but we have it in Deque. wehave insed "head()"
+	void dequeue(); 
+	const E& front() const; 
 	int size () const; 
 	bool empty() const; 
 private:
