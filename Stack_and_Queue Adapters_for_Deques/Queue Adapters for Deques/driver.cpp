@@ -3,7 +3,7 @@
 
 int main() {
     Queue<string> S;
-    //cout<< S.front() << endl;
+
     S.enqueue("Gamo");
     S.enqueue("Yoshi");
     S.enqueue("Naoto");
