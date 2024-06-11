@@ -15,12 +15,12 @@ int Stack<E>::size() const {  // number of elements
     }
 
 template <typename E>
-bool Stack<E>::empty() const {  // is the stack empty?
+bool Stack<E>::empty() const {  
     return D.empty();
     }
 
 template <typename E>
-const E& Stack<E>::top() const{ //throw(StackEmpty)  // the top element
+const E& Stack<E>::top() const{ 
     if (empty())
         throw StackEmpty("top of empty stack"); 
     return D.front();
@@ -33,7 +33,7 @@ void Stack<E>::push(const E& e) {   // push element onto stack
 
 
 template <typename E>
-void Stack<E>::pop(){ //throw(StackEmpty){       //pop the stack
+void Stack<E>::pop(){      //pop the stack
     if (empty())
         throw StackEmpty("pop of empty stack");
     D.eraseFront();
