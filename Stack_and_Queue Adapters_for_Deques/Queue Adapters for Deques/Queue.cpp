@@ -8,7 +8,7 @@ template <typename E>
 Queue<E>::Queue() : D() { } //The Constructor
 
 template <typename E>
-Queue<E>::~Queue() {D.~Deque(); } //Call the Deque destructor  ask if calling the destructor is correct or not
+Queue<E>::~Queue() {D.~Deque(); } 
 
 //Gets the front of the Queue
 template <typename E>
@@ -37,7 +37,7 @@ void Queue<E>::enqueue(const E& e){
 }
 
 template <typename E>
-void Queue<E>::dequeue(){ //throw(QueueEmpty)
+void Queue<E>::dequeue(){ 
     if (empty()) {
         throw QueueEmpty("top of empty Queue");
     }
