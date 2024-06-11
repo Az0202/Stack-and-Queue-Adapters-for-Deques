@@ -10,10 +10,10 @@ class Deque {
         ~Deque();
         void insertFront(const E& e);
         void insertBack(const E& e);
-        void eraseFront(); //Throw(DequeEmpty)
-        void eraseBack(); //Throw(DequeEmpty)
-        const E& front() const; //Throw(DequeEmpty)
-        const E& back() const; //Throw(DequeEmpty)
+        void eraseFront(); 
+        void eraseBack(); 
+        const E& front() const; 
+        const E& back() const; 
         int size() const;
         bool empty() const;
     private:
