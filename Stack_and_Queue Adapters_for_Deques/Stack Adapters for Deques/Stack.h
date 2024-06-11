@@ -11,8 +11,8 @@ public:
 	Stack();			//constructor
 	~Stack();			//destructor
 	void push(const E& e);
-	void pop(); //throw(StackEmpty);	
-	const E& top() const ;//throw(StackEmpty);	
+	void pop(); 
+	const E& top() const ;
 	int size () const;
 	bool empty() const; 
 private:
