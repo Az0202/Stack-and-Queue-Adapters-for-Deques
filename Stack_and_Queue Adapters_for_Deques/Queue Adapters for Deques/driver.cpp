@@ -20,23 +20,3 @@ int main() {
     cout << "" << endl;
 
 }
-
-   /*S.push("Gamo");
-    S.push("Yoshi");
-    S.push("Naoto");
-    S.push("Nagatoro");
-
-    cout << S.top() << endl;
-    cout << S.size() << endl;
-    cout << "" << endl;
-
-    S.pop();
-    S.pop();
-
-    cout << S.top() << endl;
-    cout << S.size() << endl;
-    cout << "" << endl;
-
-    S.pop();
-    S.pop();
-    S.pop(); */
